@@ -1,0 +1,100 @@
+/* Page */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("bg1.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* Login Box */
+.div1 {
+    width: 350px;
+    min-height: 300px;
+    padding: 30px;
+
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid rgb(214, 200, 200);
+    border-radius: 30px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 12px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form */
+.div1 form {
+    width: 100%;
+}
+
+/* Labels */
+.label1 {
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Input */
+.div1 input[type="text"],
+.div1 input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+    outline: none;
+}
+
+/* Buttons */
+.div1 input[type="button"] {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #9305c3;
+    color: #222;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.div1 input[type="button"]:hover {
+    background: #222;
+    color: rgb(164, 10, 202);
+    transform: scale(1.03);
+}
+
+/* Forgot Password */
+.div1 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.div1 a:hover {
+    text-decoration: underline;
+}
